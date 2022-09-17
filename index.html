@@ -16,12 +16,13 @@
             <p class="error-message" >
                 O nome precisa ser completo
             </p>
-            <input type="number" id="valor-A" required placeholder="Valor A" />
-            <input type="number" id="valor-B" required placeholder="Valor B" />
+            <input required placeholder="Digite um numero" type="number" name="campoA" id="numbera"> <br>
+            <input required placeholder="Digite outro numero" type="number" name="campoB" id="numberb"> <br>
             <input type="number" id="numero-conta" required placeholder="Número da conta" />
             <input type="number" id="valor-deposito" required placeholder="Valor" />
             <textarea placeholder="Descrição (opcional)" id="descricao"></textarea>
-            <button id="btn-depositar" type="submit">Depositar</button>
+            <button id="btn-depositar" type="submit" value="calcular" onclick="calcular0">Depositar</button>
+            <p id="res"></p>
         </form>
         <p class="success-message"></p>
     </div>
