@@ -1,30 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML com JS</title>
-    <link rel="stylesheet" href="./main.css" />
-</head>
-<body>
-    <div class="container">
-        <h1>EBAC Banking</h1>
-        <h2>Depósitos</h2>
-        <form id="form-deposito">
-            <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário" />
-            <p class="error-message" >
-                O nome precisa ser completo
-            </p>
-            <input type="number" id="valor-A" required placeholder="Valor A" />
-            <input type="number" id="valor-B" required placeholder="Valor B" />
-            <input type="number" id="numero-conta" required placeholder="Número da conta" />
-            <input type="number" id="valor-deposito" required placeholder="Valor" />
-            <textarea placeholder="Descrição (opcional)" id="descricao"></textarea>
-            <button id="btn-depositar" type="submit">Depositar</button>
-        </form>
-        <p class="success-message"></p>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/libs/fontAwesome/css/all.min.css">
+        <link rel="stylesheet" href="./assets/styles/main.css">
+        <style media="screen"></style>
+        <title>Jquery</title>
+    </head>
+    <body>
+        <div class="container">
+            <input type="text" id="input" required placeholder="digite abaixo e aperte enter">
+            <section>
+            <ul></ul>
+        </section>
     </div>
-    <script src="./main.js"></script>
-</body>
+        <script src="./assets/libs/jquery.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
